@@ -8,6 +8,8 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "husky": "8.0.3"
+    "husky": "8.0.3",
+    "dotenv": "^16.0.0",
+    "cross-env": "^7.0.3"
   }
 }
