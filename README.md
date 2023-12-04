@@ -17,6 +17,9 @@ FOUNDRY_PROFILE=fuji forge create \
 src/MyToken.sol:MyToken
 
 =======
+
+Deployment in Neon:
+
 FOUNDRY_PROFILE=neon-devnet forge create \
 --mnemonic .mnemonic \
 --from 0xA481a2A16C09c60472967ceD59e3d4d6C799F5E8 \
@@ -25,6 +28,21 @@ src/MyToken.sol:MyToken
 
 Deployed to: 0xdAc6f3057836b7e6688CA5Ae17F6e13fADb9924c
 Transaction hash: 0x26633de040ed2f7ca6ab7b7b12b7310fe6c682c0641187a69ff5e8a750601661
+
+
+Deployment in Polygon mumbai:
+
+FOUNDRY_PROFILE=polygon-mumbai forge create \
+--mnemonic .mnemonic \
+--from 0xA481a2A16C09c60472967ceD59e3d4d6C799F5E8 \
+--legacy \
+src/MyToken.sol:MyToken
+
+Deployer: 0xA481a2A16C09c60472967ceD59e3d4d6C799F5E8
+Deployed to: 0xf461ba7cfdFdEf7c3E887144CAcE8D944C4381A4
+Transaction hash: 0x71abbbb37698ffb6ecc019e8e93c99886ca0a31a01ff5be954b35bd54c604866
+
+
 
 ## check balanceOf
 ====

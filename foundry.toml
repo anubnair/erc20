@@ -17,3 +17,7 @@ optimizer-runs = 800
 [profile.neon-devnet]
 chain_id = 245022926
 eth_rpc_url = "https://devnet.neonevm.org"
+
+[profile.polygon-mumbai]
+chain_id = 80001
+eth_rpc_url = "https://rpc-mumbai.maticvigil.com"
